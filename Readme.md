@@ -1,1 +1,1 @@
-vpc-multilayers-cloudformation
+vpc-gitsync-cloudformation
