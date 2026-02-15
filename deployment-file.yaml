@@ -1,0 +1,9 @@
+# deployment-file.yaml
+template-file-path: ./vpc-multilayers-cloudformaion.yml
+parameters:
+  ClassA: 192
+  ClassB: 168
+  CustomerId: thecloudroot2026
+tags:
+  cost-center: '123456'
+  org: 'AWS'
