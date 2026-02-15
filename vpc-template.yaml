@@ -236,7 +236,8 @@ Resources:
     Type: 'AWS::EC2::NatGateway'
     Properties:
       AllocationId: !GetAtt 'EIP.AllocationId'
-      SubnetId: !Ref SubnetAPublic
+      AvailabilityMode: regional
+      ConnectivityType: public
       Tags:
       - Key: Name
         Value: !Sub '${CustomerId}-${AWS::Region}-NAT'
