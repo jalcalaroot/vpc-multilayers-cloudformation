@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'VPC-3-layer-multi-region'
+Description: 'VPC-3-layer-multilayer-nat-regional'
 Metadata:
   'AWS::CloudFormation::Interface':
     ParameterGroups:
