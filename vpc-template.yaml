@@ -238,6 +238,7 @@ Resources:
       AllocationId: !GetAtt 'EIP.AllocationId'
       AvailabilityMode: regional
       ConnectivityType: public
+      VpcId: !Ref VPC
       Tags:
       - Key: Name
         Value: !Sub '${CustomerId}-${AWS::Region}-NAT'
