@@ -1,11 +1,10 @@
 # deployment-file.yaml
-template-file-path: ./vpc-multilayers-cloudformation.yml
+template-file-path: ./vpc-template.yaml
 parameters:
-  ClassA: 192
-  ClassB: 168
-  CustomerId: thecloudroot2026
+  VpcCidr: 10.0.0.0/16
+  PublicSubnetCidr: 10.0.1.0/24
+  PrivateSubnetCidr: 10.0.2.0/24
 tags:
   cost-center: '123456'
   org: 'AWS'
-
 
