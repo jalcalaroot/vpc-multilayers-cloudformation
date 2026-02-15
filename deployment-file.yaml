@@ -1,5 +1,5 @@
 # deployment-file.yaml
-template-file-path: ./vpc-multilayers-cloudformaion.yml
+template-file-path: ./vpc-multilayers-cloudformation.yml
 parameters:
   ClassA: 192
   ClassB: 168
